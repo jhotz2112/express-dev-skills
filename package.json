@@ -1,11 +1,24 @@
 {
   "name": "express-dev-skills",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhotz2112/express-dev-skills.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jhotz2112/express-dev-skills/issues"
+  },
+  "homepage": "https://github.com/jhotz2112/express-dev-skills#readme",
+  "description": "",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
 }
